@@ -1,3 +1,21 @@
 [submodule "LMS"]
 	path = LMS
 	url = https://github.com/Phibedy/LMS
+[submodule "external/libraries/imaging"]
+	path = external/libraries/imaging
+	url = https://github.com/lms-org/imaging.git
+[submodule "external/libraries/math_lib"]
+	path = external/libraries/math_lib
+	url = https://github.com/lms-org/math_lib.git
+[submodule "external/modules/camera_importer"]
+	path = external/modules/camera_importer
+	url = https://github.com/lms-org/camera_importer.git
+[submodule "external/modules/sdl_image_renderer"]
+	path = external/modules/sdl_image_renderer
+	url = https://github.com/lms-org/sdl_image_renderer.git
+[submodule "external/modules/image_converter"]
+	path = external/modules/image_converter
+	url = https://github.com/lms-org/image_converter.git
+[submodule "external/services/sdl_service"]
+	path = external/services/sdl_service
+	url = https://github.com/lms-org/sdl_service.git

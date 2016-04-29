@@ -1,0 +1,38 @@
+<framework>
+    <execution>
+        <mainThread />
+    </execution>
+    <modulesToEnable logLevel="WARN">
+        <module>camera_importer</module>
+        <module>image_converter</module>
+        <module>sdl_image_renderer</module>
+    </modulesToEnable>
+    <module>
+        <name>camera_importer</name>
+        <config>
+            <device>/dev/video0</device>
+            <width>320</width>
+            <height>240</height>
+            <format>YUYV</format>
+            <framerate>30</framerate>
+        </config>
+    </module>
+    <module>
+        <name>image_converter</name>
+        <channelHint name="INPUT_IMAGE" mapTo="IMAGE" />
+        <channelHint name="OUTPUT_IMAGE" mapTo="COLOR_IMAGE" />
+        <config>
+            <output_format>RGB</output_format>
+        </config>
+    </module>
+    <module>
+        <name>sdl_image_renderer</name>
+        <config>
+            <title>Webcam</title>
+            <channels>COLOR_IMAGE</channels>
+        </config>
+    </module>
+    <service>
+        <name>sdl_service</name>
+    </service>
+</framework>
