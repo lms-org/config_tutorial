@@ -124,3 +124,5 @@ Bleibt im Build-Ordner startet LMS:
 ```
 
 Falls du keine Lust mehr hast, deine eigene Visage zu betrachten, dann drücke `Strg+C` im Terminal, um LMS zu beenden.
+
+![Webcam Window](window.png)
