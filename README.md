@@ -37,6 +37,7 @@ Geht in den libraries Ordner und erstellt ein Git-Submodul. Git kümmert sich um
 cd external/libraries
 git submodule add https://github.com/lms-org/imaging.git
 git submodule add https://github.com/lms-org/math_lib.git
+git submodule add https://github.com/lms-org/imaging_detection.git
 cd ../..
 ```
 
